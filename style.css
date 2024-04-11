@@ -100,19 +100,8 @@ a {
 }
 
 @media (min-width: 601px) {
-  /* .header {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .header nav {
-    display: none;
-  } */
-
   .nav-links {
     display: flex;
-    /* This is how it looks on desktop */
   }
 
   .about-me,
