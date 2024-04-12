@@ -20,3 +20,19 @@ hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
 });
+
+///
+
+const learnSoftware = document.querySelector(".learn-more-software");
+learnSoftware.style.display = "none";
+
+// learn more button click in the first section
+const readMoreButton = document.querySelector(".learn-more");
+
+readMoreButton.addEventListener("click", function () {
+  if (learnSoftware.style.display === "none") {
+    learnSoftware.style.display = "block";
+  } else {
+    learnSoftware.style.display = "none";
+  }
+});
